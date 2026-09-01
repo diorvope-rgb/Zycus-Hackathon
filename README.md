@@ -350,18 +350,5 @@ WARN  Pricing advisor 'aiAdvisor' failed for PRD-001 (model recommended 999999.0
       falling back to 'ruleBased'
 ```
 
-## Submission checklist
-
-Per the brief (demo video omitted here by request):
-
-| Deliverable | Status |
-| --- | --- |
-| Public GitHub repo with `/backend` + `/frontend` | Layout ready — push when you create the remote |
-| `README.md` runnable in under 5 minutes | This file — Quick start above |
-| `ADR.md` with Context → Options → Decision → Tradeoffs | Eight entries + corrections — [ADR.md](ADR.md) |
-| Inventory-low auto path after a simulated sale | Seeded `PRD-003` + agentic loop + console Sell buttons |
-
-## Documentation
-
 Architecture decisions, tradeoffs, SSE streaming, and the sprint 2 extension seams are recorded in
 [ADR.md](ADR.md).
